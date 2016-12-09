@@ -2,7 +2,7 @@
 1) Install snakemake. Then look at Snakefile_part1.py:
 * Put the R-scripts in the SCRIPTS folder
 * Put IMGT_hIGHV.fasta, IMGT_hIGHJ.fasta, IMGT_hIGHD.fasta in the folder IMGT_GERMLINES
-* In general path names in the Snakefiles as appropriate for you
+* In general change path names in the Snakefiles as appropriate for you
 * Install the R-packages required at the different stages of the workflow.
 * Then execute Snakefile_part1.py, e.g.:
 snakemake -s Snakefile_part1.py -j 999 --latency-wait 60 --cluster "sbatch --job-name {params.name} --ntasks=1 --cpus-per-task={params.cpus_per_task} --partition={params.partition} --mem-per-cpu={params.mem_per_cpu} --output={params.logfile}"
