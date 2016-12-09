@@ -1,6 +1,5 @@
 # PNAS_immune_aging
-1) 
-* Install snakemake. Then look at  Snakefile_part1.py:
+1) Install snakemake. Then look at Snakefile_part1.py:
 * Put the R-scripts in the SCRIPTS folder
 * Put IMGT_hIGHV.fasta, IMGT_hIGHJ.fasta, IMGT_hIGHD.fasta in the folder IMGT_GERMLINES
 * In general path names in the Snakefiles as appropriate for you
